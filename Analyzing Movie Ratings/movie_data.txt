@@ -1,0 +1,13 @@
+UserID,UserName,UserCountry,Age,Gender,MovieID,MovieName,Director,Price,MovieCountry,Rating,RatingDate
+1,John Doe,USA,28,Male,101,The Matrix,Lana Wachowski,15.99,USA,5,2023-01-01
+2,Jane Smith,Canada,34,Female,102,Inception,Christopher Nolan,14.99,USA,,2023-01-01
+1,John Doe,USA,28,Male,103,Parasite,Bong Joon-ho,13.99,South Korea,4,
+3,Akira Tanaka,,23,Male,101,The Matrix,Lana Wachowski,15.99,USA,2,2023-01-02
+2,Jane Smith,Canada,34,,103,Parasite,,13.99,South Korea,5,2023-01-03
+1,,USA,28,Male,102,Inception,Christopher Nolan,,USA,1,2023-01-03
+3,Akira Tanaka,Japan,23,Male,102,Inception,Christopher Nolan,14.99,USA,4,2023-01-04
+2,Jane Smith,Canada,,Female,101,The Matrix,Lana Wachowski,15.99,USA,5,2023-01-04
+3,Akira Tanaka,Japan,23,Male,104,Spirited Away,Hayao Miyazaki,12.99,Japan,4,2023-01-05
+1,John Doe,USA,28,Male,105,The Godfather,Francis Ford Coppola,19.99,USA,5,2023-01-05
+2,Jane Smith,,34,Female,104,Spirited Away,Hayao Miyazaki,12.99,Japan,4,2023-01-06
+3,Akira Tanaka,Japan,23,Male,105,,19.99,USA,3,2023-01-06
