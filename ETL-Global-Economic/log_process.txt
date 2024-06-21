@@ -1,0 +1,17 @@
+
+<built-in method now of type object at 0x00007FFADABCC500>:Preliminaries complete. Initiating ETL process
+<built-in method now of type object at 0x00007FFADABCC500>:Data Extracted Successfully from the website
+<built-in method now of type object at 0x00007FFADABCC500>:Data saved to CSV at ./GDP_by_Country_data.csv
+<built-in method now of type object at 0x00007FFADABCC500>:CSV file read successfully
+<built-in method now of type object at 0x00007FFADABCC500>:Starting data transformation
+<built-in method now of type object at 0x00007FFADABCC500>:Dropped rows with missing values
+<built-in method now of type object at 0x00007FFADABCC500>:Columns before renaming: ['#', 'Country', 'GDP  (nominal, 2022)', 'GDP  (abbrev.)', 'GDP growth', 'Population  (2022)', 'GDP per capita', 'Share of  World GDP']
+<built-in method now of type object at 0x00007FFADABCC500>:Renamed columns
+<built-in method now of type object at 0x00007FFADABCC500>:Columns after renaming: ['#', 'Country', 'GDP', 'GDP  (abbrev.)', 'GDP growth', 'Population', 'GDP per capita', 'Share of  World GDP']
+<built-in method now of type object at 0x00007FFADABCC500>:Country with the highest population: China
+<built-in method now of type object at 0x00007FFADABCC500>:Added country name into High_GDP_by_Population
+<built-in method now of type object at 0x00007FFADABCC500>:Data Transformation Successfully done
+<built-in method now of type object at 0x00007FFADABCC500>:Saving data to GDP_Clean_Data
+<built-in method now of type object at 0x00007FFADABCC500>:Data successfully saved to GDP_Clean_Data
+<built-in method now of type object at 0x00007FFADABCC500>:Loading data into database Economic.db table example2
+<built-in method now of type object at 0x00007FFADABCC500>:Data successfully loaded into the database

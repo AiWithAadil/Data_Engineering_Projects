@@ -1,0 +1,98 @@
+ETL Project: Acquiring and Analyzing Global Economic Data
+Project Overview
+In this project, you will build an ETL (Extract, Transform, Load) pipeline to acquire and analyze global economic data. The pipeline will extract data from various sources, transform it to ensure consistency and usability, and load it into both a CSV file and a database. Additional functionalities will include querying the database and verifying log entries.
+
+Tasks and Steps
+Task 1: Logging Function
+Objective: Implement a logging function to track the ETL process.
+
+Steps:
+
+Configure logging to output to both a file and the console.
+Define logging levels such as INFO, DEBUG, and ERROR.
+Ensure that the logging function is called at each step of the ETL process.
+Questions:
+
+Why is logging important in ETL processes?
+What information should be included in log entries to be useful?
+How can you ensure that logging does not degrade the performance of the ETL process?
+Task 2: Extraction of Data
+Objective: Extract global economic data from various sources.
+
+Steps:
+
+Identify reliable sources for economic data (e.g., World Bank, IMF, OECD).
+Use appropriate Python libraries to fetch data (e.g., requests for APIs, pandas for CSV files).
+Validate the data extraction by checking for successful responses and completeness.
+Questions:
+
+How do you evaluate the reliability of a data source?
+What challenges might arise when extracting data from different formats (APIs vs. CSV)?
+How can you handle data extraction failures or incomplete data?
+Task 3: Transformation of Data
+Objective: Clean and transform the extracted data for consistency and usability.
+
+Steps:
+
+Handle missing values, duplicates, and incorrect data types.
+Standardize units, rename columns, and derive new features if necessary.
+Ensure that the transformed data meets the requirements for analysis.
+Questions:
+
+What strategies can be used to handle missing values in a dataset?
+How do you deal with inconsistencies in data formats from different sources?
+What are some common data normalization techniques?
+Task 4: Loading to CSV
+Objective: Save the transformed data to a CSV file.
+
+Steps:
+
+Use pandas to save the DataFrame to a CSV file.
+Ensure that the CSV file is correctly formatted and saved in the desired location.
+Validate the CSV file by checking its content and structure.
+Questions:
+
+What are the advantages and disadvantages of storing data in CSV format?
+How can you ensure the integrity of data when writing to a CSV file?
+What potential issues might arise when dealing with large CSV files?
+Task 5: Loading to Database
+Objective: Load the transformed data into a database.
+
+Steps:
+
+Set up a connection to the database using a suitable library (e.g., sqlalchemy, sqlite3).
+Insert the data into a table, ensuring proper table schema.
+Validate the data load by querying the database and checking for accuracy.
+Questions:
+
+What are the benefits and drawbacks of different database types (SQL vs. NoSQL)?
+How do you design an efficient schema for the transformed data?
+What techniques can be used to ensure data integrity during the loading process?
+Task 6: Function to Run Queries on Database
+Objective: Create a function to execute queries on the database.
+
+Steps:
+
+Write a function that takes a SQL query as input and returns the result.
+Ensure that the function handles different types of queries (SELECT, INSERT, UPDATE).
+Validate the function by running various queries and checking the results.
+Questions:
+
+How can you optimize query performance on large datasets?
+What are the best practices for writing efficient SQL queries?
+How do you handle potential errors or exceptions when executing queries?
+Task 7: Verify Log Entries
+Objective: Verify that log entries are correctly recorded for each step.
+
+Steps:
+
+Check the log file manually or programmatically to ensure all expected log entries are present.
+Validate the content of log entries to ensure they provide useful information.
+Implement a mechanism to alert or handle log entries that indicate errors or issues.
+Questions:
+
+How can you ensure the completeness and accuracy of log entries?
+What are the common pitfalls in logging, and how can they be avoided?
+How can you use log entries to troubleshoot and improve the ETL process?
+
+url https://www.worldometers.info/gdp/gdp-by-country/
