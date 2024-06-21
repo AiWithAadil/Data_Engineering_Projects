@@ -1,4 +1,4 @@
-![Local Image](/GDP.png)
+![Local Image](./GDP.png)
 # ETL Project for Global Country GDP Data
 
 ## Project Description
