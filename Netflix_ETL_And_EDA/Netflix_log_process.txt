@@ -1,0 +1,12 @@
+2024-07-08 13:41:41.131373: ETL Process Start:.
+2024-07-08 13:41:41.132350: Extract part Start:.
+2024-07-08 13:41:41.202646: Extract part Successfully End:.
+2024-07-08 13:41:41.203637: Transformation part Start:.
+2024-07-08 13:41:41.208516: Data Successfully Clean & Get Uniques directors:.
+2024-07-08 13:41:41.210469: Data Successfully Count Tv shows & Movies:.
+2024-07-08 13:41:41.220232: Data Successfully Get top 5 genres:.
+2024-07-08 13:41:41.222189: Data Successfully Get grater than 1 seasons:.
+2024-07-08 13:41:41.284658: Data Successfully Stored into Transformation_Data.csv:.
+2024-07-08 13:41:41.284658: Transformation part Successfully End:.
+2024-07-08 13:41:41.284658: SQL part Successfully Start:.
+2024-07-08 13:41:42.442262: SQL part Successfully End:.
